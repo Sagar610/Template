@@ -2,81 +2,152 @@
 let templates = JSON.parse(localStorage.getItem('emailTemplates')) || {
     'software-engineer': `Hi {personName},
 
-I hope this message finds you well. I came across {companyName} and was particularly impressed by your innovative approach to software development.
+I hope you're doing well. I recently came across {companyName} and was impressed by your engineering culture and focus on innovation.
 
-As a Software Engineer with extensive experience in full-stack development, I'm excited about the possibility of contributing to {companyName}'s success. I've worked on various projects involving modern technologies and have a strong track record of delivering high-quality solutions.
+I'm a Software Engineer with 6+ years of experience in building scalable web applications and internal tools across both frontend and backend systems. My recent work at Meta (via HCL) involved engineering automation solutions, CI/CD tooling, and production-grade full-stack applications.
 
-Would you be open to a brief conversation about potential opportunities at {companyName}? I'd love to learn more about your team and discuss how my skills could align with your needs.
+Key strengths include:
+• Full-stack development (React.js, Node.js, Python, Django, Flask)
+• Building REST APIs, automation tools, and internal platforms
+• CI/CD pipelines (GitLab, Docker), AWS/Firebase deployments
+• Strong focus on clean code, reliability, and performance
+
+I'd love the chance to connect and learn more about your team. Would you be open to a brief conversation about potential {jobRole} opportunities at {companyName}?
 
 Best regards,
 Sagar Gondaliya
 sagargondaliya50@gmail.com
-07587860133`,
+07587 860133`,
 
     'senior-software-engineer': `Hi {personName},
 
-I hope this message finds you well. I've been following {companyName}'s growth and am particularly impressed by your technical innovations.
+I hope you're doing well. I've been following {companyName}'s growth and am genuinely impressed by your recent technical innovations and product direction.
 
-As a Senior Software Engineer with extensive experience in leading development teams and architecting scalable solutions, I'm excited about the possibility of contributing to {companyName}'s continued success. I've successfully delivered complex projects and mentored junior developers throughout my career.
+I'm a Senior Software Engineer with over 6 years of experience in designing scalable systems, leading end-to-end development efforts, and mentoring engineers. My recent work at Meta (via HCL) involved architecting internal platforms, building automation solutions, and contributing to high-impact production systems.
 
-Would you be open to a brief conversation about potential opportunities at {companyName}? I'd love to learn more about your team's challenges and discuss how my expertise could add value.
+What I bring to the table:
+• Proven success delivering complex, full-stack projects (React.js, Node.js, Python)
+• Experience leading small teams, improving engineering workflows, and driving code quality
+• Strong background in CI/CD, cloud deployments (AWS/Firebase), and system reliability
+• Hands-on mentoring and cross-functional collaboration with business and product teams
+
+I'd welcome the opportunity to speak and learn more about your team's priorities. Please let me know if you'd be open to a quick conversation about the {jobRole} position at {companyName}.
 
 Best regards,
 Sagar Gondaliya
 sagargondaliya50@gmail.com
-07587860133`,
+07587 860133`,
 
     'senior-tech-support': `Hi {personName},
 
-I hope this message finds you well. I've been impressed by {companyName}'s commitment to technical excellence and customer satisfaction.
+I'm Sagar Gondaliya, a London-based Senior Technical Support Engineer with over 7 years of experience, including 3+ years supporting business-critical systems at Meta via HCL.
 
-As a Senior Technical Support professional with extensive experience in troubleshooting complex systems and leading support teams, I'm excited about the possibility of contributing to {companyName}'s success. I've consistently delivered high-quality technical support and implemented efficient support processes.
+I'm reaching out to express interest in the {jobRole} role at {companyName}. My background includes a strong track record in high-uptime environments and cross-functional incident management.
 
-Would you be open to a brief conversation about potential opportunities at {companyName}? I'd love to learn more about your technical support needs and discuss how my experience could benefit your team.
+Summary of my expertise:
+• Support Operations: L2/L3 technical support, incident response, SLA-driven resolutions
+• Root Cause Analysis: Deep log analysis, debugging, and service monitoring
+• DevOps & Automation: CI/CD (GitLab, Jenkins), Python/Bash scripting
+• Tooling & Dashboards: Created internal tools to reduce manual triage and improve visibility
 
-Best regards,
+I've attached my resume for your review. I'd welcome the opportunity to connect and discuss how I can contribute to your team.
+
+Kind regards,
 Sagar Gondaliya
-sagargondaliya50@gmail.com
-07587860133`,
+Email: sagargondaliya50@gmail.com
+Phone: 07587 860133`,
 
     'production-support': `Hi {personName},
 
-I hope this message finds you well. I've been following {companyName}'s operations and am particularly impressed by your commitment to maintaining high-quality production systems.
+I'm Sagar Gondaliya, a London-based Production Support Engineer with over 7 years of experience, including 3+ years supporting critical systems at Meta via HCL.
 
-As a Production Support specialist with extensive experience in ensuring system reliability and performance, I'm excited about the possibility of contributing to {companyName}'s success. I've successfully managed critical production environments and implemented robust monitoring solutions.
+I'm reaching out to express interest in the {jobRole} role at {companyName}. My experience and skills align well with the needs of high-availability environments.
 
-Would you be open to a brief conversation about potential opportunities at {companyName}? I'd love to learn more about your production environment and discuss how my expertise could help maintain your systems' stability.
+Here's a quick overview of my background:
+• Current Role: Senior Production Support Engineer – Meta (via HCL)
+• Incident Management: L2/L3 support, UBN handling, SLA-driven issue resolution
+• Analysis & Monitoring: Root cause analysis, log inspection, pipeline/service monitoring
+• Automation & CI/CD: Python and Bash scripting, GitLab/Jenkins workflows
+• Tools & Reporting: Internal dashboard creation, error tracking, RCA documentation
 
-Best regards,
+I've attached my resume for your review and would appreciate the opportunity to discuss how I can contribute to your team.
+
+Kind regards,
 Sagar Gondaliya
-sagargondaliya50@gmail.com
-07587860133`,
+Email: sagargondaliya50@gmail.com
+Phone: 07587 860133`,
 
     'senior-fullstack': `Hi {personName},
 
-I hope this message finds you well. I've been following {companyName}'s technological innovations and am particularly impressed by your approach to full-stack development.
+I hope you're doing well. I came across the {jobRole} role at {companyName} and wanted to reach out directly to express my interest.
 
-As a Senior Full Stack Developer with extensive experience in both frontend and backend technologies, I'm excited about the possibility of contributing to {companyName}'s success. I've successfully delivered complex web applications and have a strong track record of implementing scalable solutions.
+I'm a Senior Full Stack Developer with over 6 years of experience, currently supporting enterprise platforms at Meta via HCL. I specialize in building scalable web applications, automation tools, and backend systems.
 
-Would you be open to a brief conversation about potential opportunities at {companyName}? I'd love to learn more about your technical stack and discuss how my full-stack expertise could benefit your team.
+Quick overview of my background:
+• Current Role: Full Stack Developer – Meta (via HCL)
+• Frontend: React.js, Next.js, Tailwind CSS
+• Backend: Python (Django, Flask), Node.js, Express.js
+• Database/Infra: MongoDB, PostgreSQL, MySQL, Firebase, AWS, Docker
+• Strengths: Automation, internal tools, CI/CD pipelines, production support
+• Projects: Deployed real-world finance tools, bill splitters, and monitoring dashboards (GitHub & Vercel live demos)
+
+I've attached my resume for your review. I'd love the opportunity to connect and explore how I can add value to your team.
+
+Looking forward to hearing from you.
+Sagar Gondaliya
+sagargondaliya50@gmail.com
++44 7587 860133`,
+
+    'python-developer': `Hi {personName},
+
+I hope you're doing well. I came across the {jobRole} position at {companyName} and wanted to reach out directly.
+
+I'm a Python Developer with 6+ years of experience, currently at Meta (via HCL) building automation tools and backend systems. My expertise includes Django, Flask, FastAPI, and data processing pipelines.
+
+Key skills:
+• Backend: Django, Flask, FastAPI, REST APIs
+• Data: PostgreSQL, MongoDB, Pandas, NumPy
+• DevOps: Docker, AWS, GitLab CI/CD
+• Projects: Built internal tools reducing manual work by 60%, APIs serving 1M+ requests daily
+
+I'd welcome the opportunity to discuss how my Python expertise could benefit your team.
 
 Best regards,
 Sagar Gondaliya
 sagargondaliya50@gmail.com
-07587860133`,
+07587 860133`,
+
+    'react-developer': `Hi {personName},
+
+I hope you're doing well. I came across the {jobRole} opportunity at {companyName} and wanted to reach out directly.
+
+I'm a React Developer with 6+ years of experience, currently at Meta (via HCL) building responsive web applications and internal tools. My expertise includes React.js, Next.js, and modern frontend development.
+
+Key skills:
+• Frontend: React.js, Next.js, TypeScript, Tailwind CSS
+• State Management: Redux, Context API
+• Testing: Jest, React Testing Library
+• Projects: Built dashboards improving team productivity by 40%, apps serving 100K+ users
+
+I'd welcome the opportunity to discuss how my React expertise could contribute to your team.
+
+Best regards,
+Sagar Gondaliya
+sagargondaliya50@gmail.com
+07587 860133`,
 
     'work-visa': `Hi {personName},
 
 Thank you for reaching out. I truly appreciate the opportunity.
 
-I'm very interested in learning more about the role. Could you also kindly confirm whether the company provides Skilled Worker visa sponsorship? I currently hold a Skilled Worker visa and would require sponsorship to continue working in the UK.
+I'm very interested in learning more about the {jobRole} role. Could you also kindly confirm whether the company provides Skilled Worker visa sponsorship? I currently hold a Skilled Worker visa and would require sponsorship to continue working in the UK.
 
 I'm available to join immediately.
 
 Thank you again,
 Sagar Gondaliya
 sagargondaliya50@gmail.com
-07587860133`
+07587 860133`
 };
 
 // Initialize personal info from localStorage or use defaults
@@ -92,6 +163,7 @@ let personalInfo = JSON.parse(localStorage.getItem('personalInfo')) || {
 const templateButtons = document.querySelectorAll('.template-btn');
 const companyNameInput = document.getElementById('company-name');
 const personNameInput = document.getElementById('person-name');
+const jobRoleInput = document.getElementById('job-role');
 const generatedMessage = document.getElementById('generated-message');
 const copyMessageBtn = document.getElementById('copy-message');
 const copyButtons = document.querySelectorAll('.copy-btn');
@@ -108,22 +180,6 @@ const editableTexts = document.querySelectorAll('.editable-text');
 templateContents.forEach((textarea, index) => {
     const templateKey = templateButtons[index].dataset.template;
     textarea.value = templates[templateKey];
-    
-    // Add copy button to template edit section
-    const templateEdit = textarea.closest('.template-edit');
-    const copyTemplateBtn = document.createElement('button');
-    copyTemplateBtn.className = 'copy-template-btn';
-    copyTemplateBtn.innerHTML = '<i class="fas fa-copy"></i> Copy Template';
-    copyTemplateBtn.style.marginLeft = '8px';
-    
-    copyTemplateBtn.addEventListener('click', () => {
-        copyToClipboard(textarea.value);
-        showCopyFeedback(copyTemplateBtn);
-    });
-    
-    // Insert copy button after save button
-    const saveBtn = templateEdit.querySelector('.save-template-btn');
-    saveBtn.parentNode.insertBefore(copyTemplateBtn, saveBtn.nextSibling);
 });
 
 // Initialize personal info
@@ -144,12 +200,18 @@ templateButtons.forEach(button => {
         templateButtons.forEach(btn => btn.classList.remove('active'));
         // Add active class to clicked button
         button.classList.add('active');
+        
+        // Set default role when template is selected
+        jobRoleInput.value = getDefaultRole(button.dataset.template);
+        
         updateMessage();
     });
 });
 
+// Add event listeners for input changes
 companyNameInput.addEventListener('input', updateMessage);
 personNameInput.addEventListener('input', updateMessage);
+jobRoleInput.addEventListener('input', updateMessage);
 
 copyMessageBtn.addEventListener('click', () => {
     // Get the text content from the contenteditable div
@@ -259,14 +321,16 @@ function updateMessage() {
     const template = templates[activeTemplate.dataset.template];
     const companyName = companyNameInput.value || '{companyName}';
     const personName = personNameInput.value || '{personName}';
+    const jobRole = jobRoleInput.value || getDefaultRole(activeTemplate.dataset.template);
 
     // Replace variables with values
     let message = template
         .replace(/{companyName}/g, companyName)
         .replace(/{personName}/g, personName)
+        .replace(/{jobRole}/g, jobRole)
         .replace(/Sagar Gondaliya/g, personalInfo.name)
         .replace(/sagargondaliya50@gmail.com/g, personalInfo.email)
-        .replace(/07587860133/g, personalInfo.phone);
+        .replace(/07587 860133/g, personalInfo.phone);
 
     // Highlight variables that haven't been replaced
     message = message.replace(/{([^}]+)}/g, '<span class="variable">{$1}</span>');
@@ -357,5 +421,28 @@ templateContents.forEach((textarea, index) => {
     });
 });
 
-// Initialize with the first template
-templateButtons[0].click(); 
+// Add function to get default role based on template
+function getDefaultRole(templateKey) {
+    const defaultRoles = {
+        'software-engineer': 'Software Engineer',
+        'senior-software-engineer': 'Senior Software Engineer',
+        'senior-tech-support': 'Senior Technical Support',
+        'production-support': 'Production Support',
+        'senior-fullstack': 'Senior Full Stack Developer',
+        'python-developer': 'Python Developer',
+        'react-developer': 'React Developer',
+        'work-visa': 'Software Engineer'
+    };
+    return defaultRoles[templateKey] || 'Software Engineer';
+}
+
+// Initialize message on page load
+document.addEventListener('DOMContentLoaded', () => {
+    // Set default template
+    const defaultTemplate = document.querySelector('.template-btn');
+    if (defaultTemplate) {
+        defaultTemplate.classList.add('active');
+        jobRoleInput.value = getDefaultRole(defaultTemplate.dataset.template);
+        updateMessage();
+    }
+}); 
