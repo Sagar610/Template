@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="panel-header">
+                <h2>Template List</h2>
+                <button id="edit-templates" class="edit-btn"><i class="fas fa-edit"></i> Edit</button>
+            </div>
+            <div class="template-list">
+                <div class="template-item">
+                    <button class="template-btn" data-template="software-engineer">
+                        <i class="fas fa-code"></i> Software Engineer
+                    </button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4><i class="fas fa-info-circle"></i> Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4><i class="fas fa-user"></i> Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4><i class="fas fa-lightbulb"></i> Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+                <div class="template-item">
+                    <button class="template-btn" data-template="senior-software-engineer">
+                        <i class="fas fa-laptop-code"></i> Senior Software Engineer
+                    </button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4><i class="fas fa-info-circle"></i> Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4><i class="fas fa-user"></i> Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4><i class="fas fa-lightbulb"></i> Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+                <div class="template-item">
+                    <button class="template-btn" data-template="senior-tech-support">Senior Technical Support</button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4>Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4>Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4>Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+                <div class="template-item">
+                    <button class="template-btn" data-template="production-support">Production Support</button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4>Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4>Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4>Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+                <div class="template-item">
+                    <button class="template-btn" data-template="senior-fullstack">Senior Full Stack Developer</button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4>Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4>Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4>Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+                <div class="template-item">
+                    <button class="template-btn" data-template="work-visa">Work Visa Response</button>
+                    <div class="template-edit" style="display: none;">
+                        <div class="template-help">
+                            <h4>Template Variables</h4>
+                            <ul>
+                                <li><code>{personName}</code> - Will be replaced with the recipient's name</li>
+                                <li><code>{companyName}</code> - Will be replaced with the company name</li>
+                            </ul>
+                            <h4>Personal Information</h4>
+                            <p>Your personal details will be automatically added at the end of the message. No need to include them in the template.</p>
+                            <h4>Tips</h4>
+                            <ul>
+                                <li>Keep the message professional and concise</li>
+                                <li>Use the variables to personalize the message</li>
+                                <li>Don't include your contact details - they'll be added automatically</li>
+                                <li>Maintain proper spacing and formatting</li>
+                            </ul>
+                        </div>
+                        <textarea class="template-content"></textarea>
+                        <button class="save-template-btn"><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="personal-info">
+                <div class="panel-header">
+                    <h3><i class="fas fa-user"></i> Personal Info</h3>
+                    <button id="edit-personal-info" class="edit-btn"><i class="fas fa-edit"></i> Edit Info</button>
+                </div>
+                <div class="info-item" data-copy="Sagar Gondaliya">
+                    <span class="editable-text"><i class="fas fa-user"></i> Sagar Gondaliya</span>
+                    <div class="button-group">
+                        <button class="copy-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
+                        <button class="edit-info-btn" style="display: none;" title="Edit"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <input type="text" class="edit-input" style="display: none;" value="Sagar Gondaliya">
+                </div>
+                <div class="info-item" data-copy="sagargondaliya50@gmail.com">
+                    <span class="editable-text"><i class="fas fa-envelope"></i> sagargondaliya50@gmail.com</span>
+                    <div class="button-group">
+                        <button class="copy-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
+                        <button class="edit-info-btn" style="display: none;" title="Edit"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <input type="text" class="edit-input" style="display: none;" value="sagargondaliya50@gmail.com">
+                </div>
+                <div class="info-item" data-copy="07587860133">
+                    <span class="editable-text"><i class="fas fa-phone"></i> 07587860133</span>
+                    <div class="button-group">
+                        <button class="copy-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
+                        <button class="edit-info-btn" style="display: none;" title="Edit"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <input type="text" class="edit-input" style="display: none;" value="07587860133">
+                </div>
+                <div class="info-item" data-copy="https://www.linkedin.com/in/sagar-gondaliya/">
+                    <span class="editable-text"><i class="fab fa-linkedin"></i> @sagar-gondaliya</span>
+                    <div class="button-group">
+                        <button class="copy-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
+                        <button class="edit-info-btn" style="display: none;" title="Edit"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <input type="text" class="edit-input" style="display: none;" value="https://www.linkedin.com/in/sagar-gondaliya/">
+                </div>
+                <div class="info-item" data-copy="https://github.com/Sagar610">
+                    <span class="editable-text"><i class="fab fa-github"></i> Github</span>
+                    <div class="button-group">
+                        <button class="copy-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
+                        <button class="edit-info-btn" style="display: none;" title="Edit"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <input type="text" class="edit-input" style="display: none;" value="https://github.com/Sagar610">
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="company-name"><i class="fas fa-building"></i> Company Name</label>
+                    <input type="text" id="company-name" placeholder="Enter Company Name">
+                </div>
+                <div class="input-group">
+                    <label for="person-name"><i class="fas fa-user"></i> Person Name</label>
+                    <input type="text" id="person-name" placeholder="Enter Person Name">
+                </div>
+            </div>
+            <div class="message-section">
+                <div class="message-container">
+                    <div id="generated-message" contenteditable="true" spellcheck="false"></div>
+                    <button id="copy-message" class="copy-btn" title="Copy message to clipboard">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
